@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About">
+    <meta name="author" content="Vijaya Anand">
+
+    <title>About Me</title>
+
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Bootstrap CSS file -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/blog.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<!-- Header -->
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="logo-link"><img src="assets/img/logo.png" alt="Astrospace"></a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="about.html">About</a></li>
+                <li><a href="#"><<<>>></a></li>
+                <li><a href="posts.html">Posts</a></li>
+                <li><a href="categories.html">Categories</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Body -->
+<div class="container">
+    <h1>Categories</h1>
+
+    <div class="row">
+        <div class="col-md-4">
+            <form>
+                <div class="form-group">
+                    <label for="category_name">Category Name</label>
+                    <input type="text" class="form-control" id="category_name" placeholder="Enter category name">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a href="#" class="btn btn-default">Add New</a>
+            </form>
+        </div>
+
+        <div class="col-md-12">
+            <hr>
+        </div>
+
+        <div class="col-md-12">
+            <table class="table table-hover table-striped table-bordered" style="margin-top: 30px;">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Category Name</th>
+                    <th>Created At</th>
+                    <th>Modified At</th>
+                    <th>#</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>PHP</td>
+                    <td>12 Feb, 2018</td>
+                    <td>12 Feb, 2018</td>
+                    <td>
+                        <a href="#" class="btn btn-default">Edit</a>
+                        <a href="#" class="btn btn-danger">Remove</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Java</td>
+                    <td>19 Feb, 2019</td>
+                    <td>18 Feb, 2019</td>
+                    <td>
+                        <a href="#" class="btn btn-default">Edit</a>
+                        <a href="#" class="btn btn-danger">Remove</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Python</td>
+                    <td>25 Feb, 2019</td>
+                    <td>18 Feb, 2019</td>
+                    <td>
+                        <a href="#" class="btn btn-default">Edit</a>
+                        <a href="#" class="btn btn-danger">Remove</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <hr/>
+        <p class="text-center">Copyright &copy; Astrospace 2014. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Jquery and Bootstrap Script files -->
+<script src="lib/jquery-2.0.3.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
